@@ -7,6 +7,9 @@ import lombok.experimental.SuperBuilder;
 
 import java.io.Serializable;
 
+/**
+ * A class for filtering by lists of integer values.
+ */
 @Getter
 @Setter
 @NoArgsConstructor

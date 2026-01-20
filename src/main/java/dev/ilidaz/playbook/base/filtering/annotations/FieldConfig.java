@@ -1,5 +1,7 @@
 package dev.ilidaz.playbook.base.filtering.annotations;
 
+import dev.ilidaz.playbook.base.filtering.enums.RelationType;
+
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -16,5 +18,7 @@ public @interface FieldConfig {
      *
      * @return the path of the field
      */
-    String path();
+    String path() default "";
+
+    RelationType relationType() default RelationType.SINGLE;
 }

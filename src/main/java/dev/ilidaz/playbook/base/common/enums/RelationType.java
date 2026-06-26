@@ -1,4 +1,4 @@
-package dev.ilidaz.playbook.base.filtering.enums;
+package dev.ilidaz.playbook.base.common.enums;
 
 public enum RelationType {
     SINGLE,
